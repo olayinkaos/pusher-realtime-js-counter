@@ -1,13 +1,14 @@
 {
-  "name": "final-pusher-js-counter",
+  "name": "pusher-realtime-js-counter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Real-time votes counter created with plain JavaScript and Pusher",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olayinka Omole",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
